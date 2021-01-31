@@ -1,0 +1,55 @@
+.description {
+  color: $darkgrey;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+
+  & .logo {
+    font: 24px $pasifico;
+  }
+
+  & .anchor {
+    font-weight: bold;
+    font-style: italic;
+    color: $green;
+  }
+}
+
+.colored-text {
+  @include size (100vw, fit-content);
+  margin: 40px auto;
+  color: $lighttext;
+  font: 16px $dosis;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+  box-shadow:6px 6px 36px 8px rgba(0,0,0,0.33);
+  -webkit-box-shadow:6px 6px 36px 8px rgba(0,0,0,0.33);
+  -moz-box-shadow:6px 6px 36px 8px rgba(0,0,0,0.33);
+  
+  &__green {
+    background: $lightgreen;
+    & .border {
+      padding: 15px 0;
+      min-height: 70px;
+      border: 2px solid $lighttext;
+      @include f-center;
+    }
+  }
+
+  &__carrot {
+    background: $lightcarrot;
+    & .border {
+      padding: 15px 0;
+      min-height: 70px;
+      border: 2px solid $lighttext;
+      @include f-center;
+    }
+  }
+
+  & .logo {
+    font: 18px $pasifico;
+    margin: 0 3px;
+  }
+}

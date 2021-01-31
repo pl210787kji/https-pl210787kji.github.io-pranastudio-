@@ -1,0 +1,72 @@
+.title {
+  text-align: center;
+
+  &__name {
+    font-family: $pasifico;
+    font-size: 36px;
+    line-height: 1em;
+
+
+    &-logo {
+      color: $extralightcarrot;
+      font-size: 20px;
+    }
+  }
+
+  &__desc {
+    position: relative;
+    font-family: $cormorant;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 5px;
+    text-align: center;
+    line-height: 1em;
+
+    &-logo {
+      color: $extralightcarrot;
+      font-size: 18px;
+      left: 2px;
+      text-align: left;
+    }
+  }
+
+  & p {
+   font: 14px $cormorant;   
+  }
+
+  &-green {
+    margin: 35px auto;
+    overflow-x: hidden;
+
+    &__name {
+      font-size: 48px;
+      color: $green;
+    }
+
+    &__desc {
+      font-size: 36px;
+      color: $lightgreen;
+      left: 145px;
+      line-height: 1em;
+    }
+
+  }
+
+  &-carrot {
+    margin: 85px auto 60px;
+    overflow-x: hidden;
+
+    &__name {
+      font-size: 48px;
+      color: $carrot;
+    }
+
+    &__desc {
+      font-size: 36px;
+      color: $lightcarrot;
+      left: 145px;
+      line-height: 1em;
+    }
+
+  }
+}
